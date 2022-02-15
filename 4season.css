@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+.clear{
+    clear: both;
+}
+ul{
+    list-style: none;
+}
+body{
+   font-size: 15px;
+   line-height: 25px;
+   color: black;
+   font-family: "맑은고딕";
+   min-width:1350px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.margin_min1{
+margin: auto;
+width: 1320px;
+text-align: center;
+}
+
+.mim_h1{
+    padding: 50px 0;
+}
+
+.min_ul1{
+    text-align: center;
+    color:white; 
+}
+.min_ul1 li{
+    float: left;
+    width: 25%;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.back_min a:hover{
+    color: #33CCFF;
+}
+.back_min{
+    background: rgba(122, 122, 122, 0.5);
+    padding-bottom: 40px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    z-index: 10;
+}
+
+.min_ber{
+    position: relative;
+}
+.min_ber h1{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 35px;
+    line-height: 50px;
+    z-index: 10;
+}
+.min_ber img{
+    width: 100%;
+}
+.mb{
+   
+    text-align: center;
+}
+
+
+/*어바웃 ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ*/
+.about_margin{
+    margin: 0 auto;
+    width: 1320px;
+    text-align: center;
+
+}
+   
+    
+.about_h1{
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+}
+.about_h1a{
+      font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+    padding-top: 200px;
+    padding-bottom: 30px;
+    font-size: 40px;
+    color: #33CCFF;
+    text-align: center;
+}
+.about_h1b{
+        font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+    font-size: 35px;
+    padding-bottom: 13px;
+    text-align: center;
+}
+
+
+
+
+
+
+/*여기서부터 삭제해도됨*/
+.eve_ula li, .eve_ulb li{
+    text-align: center;
+    float: left;
+    width: 22.7%;
+    margin-left: 105px;
+}
+
+.eve_ula{
+margin-top: 70px;
+
+}
+.eve_ulb{
+    margin-top: 35px;
+
+}
+.eve_ha{
+    font-size: 15px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.eve_a11 h1{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 30px 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.about_h1a1{
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+    padding-top: 200px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    text-align: center;
+
+}
+
+.about_h1aa{
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+  
+    padding-bottom: 30px;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    text-align: center;
+
+}
+
+.no_margin1{
+    background-image: url(img/Rectangle\ 59.jpg) ;
+    padding-bottom: 30px;
+    
+}
+
+
+.no_margin{
+    margin: auto;
+    width: 1320px;
+    text-align: center;
+   
+}
+
+
+.no_margin_tab{
+    margin: 0 auto;
+    width: 1320px;
+    border-collapse: collapse;
+}
+.no_margin_tab_th{
+    border-bottom: 1px solid #a2a2a2;
+    font-size: 15px;
+    padding: 20px 0px;
+    width: -4%;
+
+}
+
+#aa11{
+    font-size: 17px;
+}
+#text_allt{
+    text-align: left;
+    padding-left: 70px;
+}
+.about_h1aa{
+    position: absolute;
+    top: -34px ;
+    left:90px ;
+}
+.mar_h1a1{
+    padding-left: 129px;
+}
+.text_text{
+    position: relative;
+    float: left;
+    margin-top: 200px;
+    text-align: center;
+    display: block;
+    margin-left: 522px;
+    
+}
+.input_img{
+    background-image: url(img/btn_search.png);
+    border: 1px solid #a2a2a2;;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 10px 17px;
+    
+}
+
+
+/*푸터*/
+
+
+
+
+.footer{
+    height: 270px;
+    text-align: center;
+      background-image: url(img/bbb.gif);
+    background-repeat: no-repeat;
+
+
+}
+.footer_img1{
+    padding: 30px 0;
+}
+.footer_ul1{ /*여기에 입력하면 모든 ul에 다 입력됨*/
+    text-align: center;
+    width: 50%;
+    float: left;
+    color: white;
+    font-size: 15px;
+    font-family: 'Nanum Myeongjo', serif;
+    position: relative;
+
+}
+.footer_text{
+    margin: 0 auto;
+    width: 1320px;
+}
+.footer_idul1{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translateX(-50%);
+}
+.footer_ul3{
+  
+    padding-left: 40%;
+    
+}
+.footer_ul3> li{
+ float: left;
+ padding-right: 10px;
+}
+
+.footer_text a:hover{
+    color: #33CCFF;
+}
